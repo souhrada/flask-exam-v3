@@ -1,6 +1,4 @@
-# Test: Flask, SQLite, JSON
-
-Ke každé části testu je složka, do které doplň svůj kód
+# Test: Flask, JSON
 
 ## Flask
 
@@ -11,4 +9,7 @@ Ke každé části testu je složka, do které doplň svůj kód
 5.  pokud uživatel zadal slovo "nic" místo přání flask pošle zpět zprávu "uživatel byl příliš líný na napsání recenze" - bonus stejnou hlášku to vypíše pro jakékoliv slovo, které má 3 a méně znaků
 6.  uprav formulář tak, ať se zobrazí odeslaná odpověď na stránce
 7.  do kódu vlož komentář, který vysvětluje, co dělá tento blok kódu `if __name__ == "__main__": app.run(debug=True)`
+
+## JSON
+
 8.  data z formuláře ulož také do JSON recenze.json ve složce data
